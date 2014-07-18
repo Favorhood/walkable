@@ -5,7 +5,8 @@ var request = require('request');
 
 //factual nodejs api here: http://blog.factual.com/factual-node-js-driver
 var Factual = require('factual-api');
-var factual = new Factual('YOUR KEY', 'YOUR SECRET');
+//var factual = new Factual('YOUR KEY', 'YOUR SECRET');
+var factual = new Factual('NnaBjL56553Zi8mCwKSqV9Q7TLCcmEvZvbWwCpzj', 'CJiNFZvSfsfYC3xt4qHu0lt2MZhUHD32FhBcmnie');
 
 var FACTUAL_RADIUS_METERS = 20000;
 var MAX_WALK_TIME_SECONDS = 1200;
@@ -14,9 +15,10 @@ var MAX_NON_WALKING_DISTANCE = 4000;
 //travel time details here: http://www.traveltimeapp.com/
 var TT_DATA_URL = "http://api.igeolise.com/time_filter";
 var TT_MAPS_URL = "http://api.igeolise.com/time_map";
-var TT_APP_ID = "YOUR APP ID";
-var TT_APP_KEY = "YOUR APP KEY";
-
+//var TT_APP_ID = "YOUR APP ID";
+//var TT_APP_KEY = "YOUR APP KEY";
+var TT_APP_ID = "642843bd";
+var TT_APP_KEY = "6d2dcf13a8a8a8f6a1fddbc452515ece";
 
 app.get('/', function(req, res){
 
